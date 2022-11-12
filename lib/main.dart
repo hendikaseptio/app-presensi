@@ -1,7 +1,14 @@
 import 'package:flutter/material.dart';
- 
+import 'view/login.dart';
+
 void main() {
-  runApp(const MyApp());
+  runApp(
+    const MaterialApp(
+      home: SafeArea(
+        child: const Login()
+      ),
+    )
+  );
 }
 
 class MyApp extends StatelessWidget {
