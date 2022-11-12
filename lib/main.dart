@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
 import 'view/login.dart';
+import 'view/home.dart';
 
 void main() {
   runApp(
     const MaterialApp(
       home: SafeArea(
-        child: const Login()
+        child: const Home()
       ),
     )
   );
