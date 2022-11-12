@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
 import 'view/login.dart';
 import 'view/home.dart';
+import 'view/profil.dart';
 
 void main() {
   runApp(
     const MaterialApp(
       home: SafeArea(
-        child: const Home()
+        child: const Profil()
       ),
     )
   );
